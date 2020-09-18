@@ -6,5 +6,5 @@ Microservice architecture based sneaker resale web platform application
 
 
 
-[Kicksware logo]: /kicksware-badge.png
+[Kicksware logo]: https://ci.kicksware.com/kicksware/kicksware-platform/-/raw/master/kicsware-badge.png
 [Kicksware]: https://kicksware.com
