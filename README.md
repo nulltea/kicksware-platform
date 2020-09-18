@@ -15,13 +15,11 @@
 **Gateway:** &nbsp;[![pipeline status](https://ci.kicksware.com/kicksware/gateway/badges/master/pipeline.svg)](https://ci.kicksware.com/kicksware/gateway/-/commits/master)&nbsp;&nbsp;&nbsp;
 **Tool Stack:** &nbsp;[![pipeline status](https://ci.kicksware.com/kicksware/tool-stack/badges/master/pipeline.svg)](https://ci.kicksware.com/kicksware/tool-stack/-/commits/master)&nbsp;&nbsp;&nbsp;
 ---
-Kicksware is an all-in-one modular end-to-end platform designed by and for the sneakerheads around the globe as part of the luxury fashion worldwide ecosystem.
+Kicksware is an all-in-one modular end-to-end opensource platform designed by and for the sneakerheads around the globe as part of the luxury fashion worldwide ecosystem.
 
-It can provide opportunity, place and services not only to a passionate buyer or a prosperous seller but those who encourage authenticity, sustain individuality, and seeking like-minded personalities to further cooperation and collaboration.
+It designed to provide opportunity, place and services not only to a passionate buyer or a prosperous seller but those who encourage authenticity, sustain individuality, and seeking like-minded personalities to further cooperation and collaboration.
 
-Support use of modern technology in nowadays fashion industry for help building better, more comfortable, more authentic and more creative ecosystem - it can be it's main goal and mission.
-
-And although Kicksware have a potential to become and pursue one or all of these things as for now it is not.
+It’s goal is to support use of modern technology in nowadays fashion industry for help building better, more comfortable, more authentic and more creative ecosystem.
 
 
 
