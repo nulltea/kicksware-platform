@@ -30,7 +30,7 @@ As it was designed as a distributed microservice infrastructure system <span sty
 4. [Tool Stack][tool-stack repo]
 
 
-[kicksware logo]: https://ci.kicksware.com/kicksware/kicksware-platform/-/raw/master/kicsware-badge.png
+[kicksware logo]: https://ci.kicksware.com/kicksware/kicksware-platform/-/raw/master/kicksware-logo.png
 [kicksware url]: https://kicksware.com
 
 [api repo]: https://github.com/timoth-y/kicksware-api
