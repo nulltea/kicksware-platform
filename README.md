@@ -4,8 +4,8 @@
 [![golang badge]](https://golang.org)&nbsp;
 [![c# badge]](https://dotnet.microsoft.com/apps/aspnet)&nbsp;
 [![js badge]](https://jamstack.org)&nbsp;&nbsp;
-[![license badge]](https://www.gnu.org/licenses/agpl-3.0)&nbsp;
-[![architecture badge]](https://martinfowler.com/articles/microservices.html)
+[![architecture badge]][microservice article]&nbsp;
+[![license badge]](https://www.gnu.org/licenses/agpl-3.0)
 
 [![kubernetes badge]](https://kubernetes.io)&nbsp;
 [![gitlab badge]](https://ci.kicksware.com/kicksware/kicksware-platform)
@@ -15,19 +15,35 @@
 [![gateway pipeline]](https://ci.kicksware.com/kicksware/gateway/-/commits/master)&nbsp;
 [![tool-stack pipeline]](https://ci.kicksware.com/kicksware/tool-stack/-/commits/master)&nbsp;
 
-# <span style="font-family:Oxanium">Overview</span>
-<span style="font-family:Audiowide">Kicksware</span> is an all-in-one modular end-to-end opensource platform designed by and for the sneakerheads around the globe as part of the luxury fashion worldwide ecosystem.
+## Overview
+
+_**Kicksware**_ is an all-in-one modular end-to-end opensource platform designed by and for the sneakerheads around the globe as part of the luxury fashion worldwide ecosystem.
 
 It designed to provide opportunity, place and services not only to a passionate buyer or a prosperous seller but those who encourage authenticity, sustain individuality, and seeking like-minded personalities to further cooperation and collaboration.
 
 It’s goal is to support use of modern technology in nowadays fashion industry and help building better, more comfortable, more authentic and more creative ecosystem.
 
-# <span style="font-family:Oxanium">Components</span>
-As it was designed as a distributed microservice infrastructure system <span style="font-family:Audiowide">Kicksware</span> consist of four main components, each having it's own dadicated project:
-1. [API][api repo]
-2. [Web App][web-app repo]
-3. [Gateway][gateway repo]
-4. [Tool Stack][tool-stack repo]
+## Components
+
+As it was designed as a distributed microservice system _**Kicksware**_ consist of 4 main components, each having it's own dadicated project:
+
+* [**API** - microservices registry, which collectively represents application business-logic, written in Go][api repo]
+* [**Web App** - frontend web application which enables users to interact with business-logic via the stylish user interface][web-app repo]
+* [**Gateway** - cloud-native reverse proxy and load balancer service based on][gateway repo] [Traefik][traefik repo]
+* [**Tool Stack** - complex of additional technologies, services, and databases configured to be a part of Kicksware infrastructure][tool-stack repo]
+
+Together, these components make up a complete software infrastructure designed with scalability in mind, therefore can handle a constantly growing audience and volatile market conditions
+
+## Architecture
+
+Kicksware system design is based on _[**microservice architecture**][microservice article] pattern_ which takes an approach for developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API.
+
+This particular approach was originally chosen for research and self educational purposes and afterwards my passion for sneakers was used as the soul of a future product. And by all means, this isn't the right way of choosing an architectural design for the upcoming system. Product purpose, budget, team size, need in scalability, market condition and even more factors should be considered while choosing a software architecture pattern.
+
+As for this particular project main goal was to reverce enginier this proccess and build the system that would be the best possible fit for approach of microservices.
+
+## Infrastructure
+
 
 
 [kicksware logo]: https://ci.kicksware.com/kicksware/kicksware-platform/-/raw/master/kicksware-logo.png
@@ -42,8 +58,8 @@ As it was designed as a distributed microservice infrastructure system <span sty
 [golang badge]: https://img.shields.io/badge/Code-Golang-informational?style=flat&logo=go&logoColor=white&color=6AD7E5
 [c# badge]: https://img.shields.io/badge/Code-C%23-informational?style=flat&logo=c-sharp&logoColor=white&color=1E9E25
 [js badge]: https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=F7E018
-[license badge]: https://img.shields.io/badge/License-AGPL%20v3-blue.svg
-[architecture badge]: https://img.shields.io/badge/Architecture-Microservices-informational?style=flat&logo=opslevel&logoColor=white&color=316DE6
+[license badge]: https://img.shields.io/badge/License-AGPL%20v3-blue.svg?color=teal
+[architecture badge]: https://img.shields.io/badge/Architecture-Microservices-informational?style=flat&logo=opslevel&logoColor=white&color=teal
 [kubernetes badge]: https://img.shields.io/badge/DevOps-Kubernetes-informational?style=flat&logo=kubernetes&logoColor=white&color=316DE6
 [gitlab badge]: https://img.shields.io/badge/CI-Gitlab_CE-informational?style=flat&logo=gitlab&logoColor=white&color=FCA326
 
@@ -51,3 +67,6 @@ As it was designed as a distributed microservice infrastructure system <span sty
 [web-app pipeline]: https://ci.kicksware.com/kicksware/web-app/badges/master/pipeline.svg?key_text=Web%20App%20|%20pipeline&key_width=115
 [gateway pipeline]: https://ci.kicksware.com/kicksware/gateway/badges/master/pipeline.svg?key_text=Gateway%20|%20pipeline&key_width=115
 [tool-stack pipeline]: https://ci.kicksware.com/kicksware/tool-stack/badges/master/pipeline.svg?key_text=Tool%20Stack%20|%20pipeline&key_width=125
+
+[traefik repo]: https://github.com/traefik/traefik/blob/master/README.md
+[microservice article]: https://martinfowler.com/articles/microservices.html
