@@ -7,12 +7,13 @@
 [![C#](https://img.shields.io/badge/Code-C%23-informational?style=flat&logo=c-sharp&logoColor=white&color=1E9E25)](https://dotnet.microsoft.com/apps/aspnet)&nbsp;
 [![JavaScript](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=F7E018)](https://jamstack.org)&nbsp;&nbsp;&nbsp;
 
-[![Kubernetes](https://img.shields.io/badge/DevOps-Kubernetes-informational?style=flat&logo=kubernetes&logoColor=white&color=316DE6)](https://kubernetes.io)
-|[![Gitlab CE](https://img.shields.io/badge/CI-Gitlab_CE-informational?style=flat&logo=gitlab&logoColor=white&color=FCA326)](https://ci.kicksware.com/kicksware/kicksware-platform)||||
-|---|---|---|---|
-|API|[![API pipeline status](https://ci.kicksware.com/kicksware/api/badges/master/pipeline.svg)](https://ci.kicksware.com/kicksware/api/-/commits/master)|Web App|[![pipeline status](https://ci.kicksware.com/kicksware/web-app/badges/master/pipeline.svg)](https://ci.kicksware.com/kicksware/web-app/-/commits/master)|
-|Gateway|[![pipeline status](https://ci.kicksware.com/kicksware/gateway/badges/master/pipeline.svg)](https://ci.kicksware.com/kicksware/gateway/-/commits/master)|Tool Stack|[![pipeline status](https://ci.kicksware.com/kicksware/tool-stack/badges/master/pipeline.svg)](https://ci.kicksware.com/kicksware/tool-stack/-/commits/master)|
+[![Kubernetes](https://img.shields.io/badge/DevOps-Kubernetes-informational?style=flat&logo=kubernetes&logoColor=white&color=316DE6)](https://kubernetes.io)&nbsp;
+[![Gitlab CE](https://img.shields.io/badge/CI-Gitlab_CE-informational?style=flat&logo=gitlab&logoColor=white&color=FCA326)](https://ci.kicksware.com/kicksware/kicksware-platform)&nbsp;&nbsp;&nbsp;
 
+[![API pipeline status](https://ci.kicksware.com/kicksware/api/badges/master/pipeline.svg?key_text=API%20|%20pipeline&key_width=80)](https://ci.kicksware.com/kicksware/api/-/commits/master)
+[![pipeline status](https://ci.kicksware.com/kicksware/web-app/badges/master/pipeline.svg?key_text=Web%20App%20|%20pipeline&key_width=110)](https://ci.kicksware.com/kicksware/web-app/-/commits/master)
+[![pipeline status](https://ci.kicksware.com/kicksware/gateway/badges/master/pipeline.svg?key_text=Gateway%20|%20pipeline&key_width=110)](https://ci.kicksware.com/kicksware/gateway/-/commits/master)
+[![pipeline status](https://ci.kicksware.com/kicksware/tool-stack/badges/master/pipeline.svg?key_text=Tool%20Stack%20|%20pipeline&key_width=120)](https://ci.kicksware.com/kicksware/tool-stack/-/commits/master)&nbsp;&nbsp;&nbsp;
 ---
 Kicksware is an all-in-one modular end-to-end opensource platform designed by and for the sneakerheads around the globe as part of the luxury fashion worldwide ecosystem.
 
