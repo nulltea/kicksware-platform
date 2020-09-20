@@ -44,6 +44,15 @@ As for this particular project main goal was to reverce enginier this proccess a
 
 ## Infrastructure
 
+In order to _deploy_, _maintain_ and be able to effectively _scale_ distributed microservice system such as Kicksware, organized and well-thought infrastructure is required.
+
+**Сloud infrastructure** is a set of components needed for cloud computing, which includes hardware, software, storage, and network resources as well as relation between them. It also includes a hardware abstraction layer that enables the virtualization of resources and helps to drive down costs through economies of scale.
+
+Generally, modern [**cloud-native**][cloud-native] applications are built as a set of services that run in _Docker containers_, and may be orchestrated in _Kubernetes_ and managed and deployed using _DevOps_ and _Git CI_ workflows. This project is no exception as it is also taking advantage of continuous deployment to the Kubernetes cluster triggered by Gitlab CI\CD system.
+
+In terms of scalability, Kicksware is relying on Kuberentes [_Horizontal Pod Autoscaler (HPA)_][k8s hpa] feature and [_Vertical Node Autoscaler_][digitalocean-vna] provided by [_DigitalOcean_][digitalocean-k8s]
+
+Next diagram visualy reprsents cloud infrastructure components and relation between them:
 [![kicksware infrastructure][]][kicksware-cloudcraft]
 
 [kicksware logo]: https://ci.kicksware.com/kicksware/kicksware-platform/-/raw/master/assets/kicksware-logo.png
@@ -73,3 +82,7 @@ As for this particular project main goal was to reverce enginier this proccess a
 
 [kicksware infrastructure]: https://raw.githubusercontent.com/timoth-y/kicksware-platform/master/assets/kicksware-infrastructure.png
 [kicksware-cloudcraft]: https://app.cloudcraft.co/view/06c423b0-2024-47da-a929-135244424429?key=0JqqeWiD_Jx4skCCQIvLFA
+[cloud-native]: https://www.cncf.io/
+[k8s hpa]: https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
+[digitalocean-vna]: https://www.digitalocean.com/docs/kubernetes/how-to/autoscale/
+[digitalocean-k8s]: https://www.digitalocean.com/products/kubernetes/
