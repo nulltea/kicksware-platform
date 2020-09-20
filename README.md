@@ -50,7 +50,7 @@ In order to _deploy_, _maintain_ and be able to effectively _scale_ distributed 
 
 Generally, modern [**cloud-native**][cloud-native] applications are built as a set of services that run in _Docker containers_, and may be orchestrated in _Kubernetes_ and managed and deployed using _DevOps_ and _Git CI_ workflows. This project is no exception as it is also taking advantage of continuous deployment to the Kubernetes cluster triggered by Gitlab CI\CD system.
 
-In terms of scalability, Kicksware is relying on Kuberentes [_Horizontal Pod Autoscaler (HPA)_][k8s hpa] feature and [_Vertical Node Autoscaler_][digitalocean-vna] provided by [_DigitalOcean_][digitalocean-k8s]
+In terms of scalability, Kicksware is relying on Kuberentes [_Horizontal Pod Autoscaler (HPA)_][k8s hpa] feature and [_Cluster Autoscaler_][digitalocean-vna] provided by _DigitalOcean_.
 
 Next diagram visualy reprsents cloud infrastructure components and relation between them:
 [![kicksware infrastructure][]][kicksware-cloudcraft]
@@ -85,4 +85,3 @@ Next diagram visualy reprsents cloud infrastructure components and relation betw
 [cloud-native]: https://www.cncf.io/
 [k8s hpa]: https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
 [digitalocean-vna]: https://www.digitalocean.com/docs/kubernetes/how-to/autoscale/
-[digitalocean-k8s]: https://www.digitalocean.com/products/kubernetes/
