@@ -44,7 +44,7 @@ As for this particular project main goal was to reverce enginier this proccess a
 
 ## Infrastructure
 
-
+[![kicksware infrastructure][]][kicksware-cloudcraft]
 
 [kicksware logo]: https://ci.kicksware.com/kicksware/kicksware-platform/-/raw/master/assets/kicksware-logo.png
 [kicksware url]: https://kicksware.com
@@ -70,3 +70,6 @@ As for this particular project main goal was to reverce enginier this proccess a
 
 [traefik repo]: https://github.com/traefik/traefik/blob/master/README.md
 [microservice article]: https://martinfowler.com/articles/microservices.html
+
+[kicksware infrastructure]: https://raw.githubusercontent.com/timoth-y/kicksware-platform/master/assets/kicksware-infrastructure.png
+[kicksware-cloudcraft]: https://app.cloudcraft.co/view/06c423b0-2024-47da-a929-135244424429?key=0JqqeWiD_Jx4skCCQIvLFA
