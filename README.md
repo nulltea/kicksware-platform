@@ -46,7 +46,7 @@ As for this particular project main goal was to reverce enginier this proccess a
 
 
 
-[kicksware logo]: https://ci.kicksware.com/kicksware/kicksware-platform/-/raw/master/kicksware-logo.png
+[kicksware logo]: https://ci.kicksware.com/kicksware/kicksware-platform/-/raw/master/assets/kicksware-logo.png
 [kicksware url]: https://kicksware.com
 
 [api repo]: https://github.com/timoth-y/kicksware-api
