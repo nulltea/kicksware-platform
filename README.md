@@ -52,8 +52,22 @@ Generally, modern [**cloud-native**][cloud-native] applications are built as a s
 
 In terms of scalability, Kicksware is relying on Kuberentes [_Horizontal Pod Autoscaler (HPA)_][k8s hpa] feature and [_Cluster Autoscaler_][digitalocean-vna] provided by _DigitalOcean_.
 
-Next diagram visualy reprsents cloud infrastructure components and relation between them:
+Next diagram visualy reprsents Kicksware's cloud infrastructure components and relation between them:
 [![kicksware infrastructure][]][kicksware-cloudcraft]
+
+## Wrap Up
+
+_**Kicksware**_ is a _noncommercial, research project_ dedicated to be a playground for learning and practicing modern cloud technologies, languages, patterns, and architectures.
+
+And although there aren't any future plans to make a profit from Kicksware as a real-world sneaker resale shop, this isn't the final stop for this project.
+
+Kicksware will continue to exist and adopt new technologies as the time pasts as well as stay open source.
+
+Feel free to contribute your code and ideas. Please make sure to read the Contributing Guide before making a pull request.
+
+## License
+
+Licensed under the [GNU AGPLv3][license file].
 
 [kicksware logo]: https://ci.kicksware.com/kicksware/kicksware-platform/-/raw/master/assets/kicksware-logo.png
 [kicksware url]: https://kicksware.com
@@ -85,3 +99,5 @@ Next diagram visualy reprsents cloud infrastructure components and relation betw
 [cloud-native]: https://www.cncf.io/
 [k8s hpa]: https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
 [digitalocean-vna]: https://www.digitalocean.com/docs/kubernetes/how-to/autoscale/
+
+[license file]: https://github.com/timoth-y/kicksware-platform/blob/master/LICENSE
