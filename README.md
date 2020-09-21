@@ -1,23 +1,24 @@
 # [![Kicksware logo][]][Kicksware url]
 
-<center>
-
-[![website badge]](https://kicksware.com)
-</center>
+<p align="center">
+	<a href="https://kicksware.com">
+		<img src="https://img.shields.io/website?label=Visit%20website&down_message=unavailable&up_color=teal&up_message=kicksware.com%20%7C%20online&url=https%3A%2F%2Fkicksware.com">
+	</a>
+</p>
 
 [![golang badge]](https://golang.org)&nbsp;
 [![c# badge]](https://dotnet.microsoft.com/apps/aspnet)&nbsp;
-[![js badge]](https://jamstack.org)&nbsp;&nbsp;
-[![kubernetes badge]](https://kubernetes.io)&nbsp;
-[![architecture badge]][microservice article]&nbsp;
+[![js badge]](https://jamstack.org)&ensp;
+[![kubernetes badge]](https://kubernetes.io)&ensp;
+[![architecture badge]][microservice article]&ensp;
 [![license badge]](https://www.gnu.org/licenses/agpl-3.0)
-
 
 [![api pipeline]](https://ci.kicksware.com/kicksware/api/-/commits/master)&nbsp;
 [![web-app pipeline]](https://ci.kicksware.com/kicksware/web-app/-/commits/master)&nbsp;
 [![gitlab badge]](https://ci.kicksware.com/kicksware/kicksware-platform)&nbsp;
 [![gateway pipeline]](https://ci.kicksware.com/kicksware/gateway/-/commits/master)&nbsp;
 [![tool-stack pipeline]](https://ci.kicksware.com/kicksware/tool-stack/-/commits/master)&nbsp;
+
 
 ## Overview
 
