@@ -1,17 +1,21 @@
 # [![Kicksware logo][]][Kicksware url]
 
-[![website badge]](https://kicksware.com)&nbsp;&nbsp;
+<center>
+
+[![website badge]](https://kicksware.com)
+</center>
+
 [![golang badge]](https://golang.org)&nbsp;
 [![c# badge]](https://dotnet.microsoft.com/apps/aspnet)&nbsp;
 [![js badge]](https://jamstack.org)&nbsp;&nbsp;
+[![kubernetes badge]](https://kubernetes.io)&nbsp;
 [![architecture badge]][microservice article]&nbsp;
 [![license badge]](https://www.gnu.org/licenses/agpl-3.0)
 
-[![kubernetes badge]](https://kubernetes.io)&nbsp;
-[![gitlab badge]](https://ci.kicksware.com/kicksware/kicksware-platform)
 
 [![api pipeline]](https://ci.kicksware.com/kicksware/api/-/commits/master)&nbsp;
 [![web-app pipeline]](https://ci.kicksware.com/kicksware/web-app/-/commits/master)&nbsp;
+[![gitlab badge]](https://ci.kicksware.com/kicksware/kicksware-platform)&nbsp;
 [![gateway pipeline]](https://ci.kicksware.com/kicksware/gateway/-/commits/master)&nbsp;
 [![tool-stack pipeline]](https://ci.kicksware.com/kicksware/tool-stack/-/commits/master)&nbsp;
 
@@ -77,7 +81,7 @@ Licensed under the [GNU AGPLv3][license file].
 [gateway repo]: https://github.com/timoth-y/kicksware-gateway
 [tool-stack repo]: https://github.com/timoth-y/kicksware-tool-stack
 
-[Website badge]: https://img.shields.io/website?down_message=unavailable&up_color=teal&up_message=kicksware.com%20%7C%20online&url=https%3A%2F%2Fkicksware.com
+[Website badge]: https://img.shields.io/website?label=Visit%20website&down_message=unavailable&up_color=teal&up_message=kicksware.com%20%7C%20online&url=https%3A%2F%2Fkicksware.com
 [golang badge]: https://img.shields.io/badge/Code-Golang-informational?style=flat&logo=go&logoColor=white&color=6AD7E5
 [c# badge]: https://img.shields.io/badge/Code-C%23-informational?style=flat&logo=c-sharp&logoColor=white&color=1E9E25
 [js badge]: https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=F7E018
