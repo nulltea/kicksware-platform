@@ -71,7 +71,7 @@ Feel free to contribute your code and ideas. Please make sure to read the Contri
 
 ## License
 
-Licensed under the [GNU AGPLv3][license file].
+Licensed under the [GNU AGPL-3.0][license file].
 
 [kicksware logo]: https://ci.kicksware.com/kicksware/kicksware-platform/-/raw/master/assets/repo-logo.png
 [kicksware url]: https://kicksware.com
