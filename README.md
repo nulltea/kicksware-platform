@@ -9,7 +9,7 @@
 [![golang badge]](https://golang.org)&nbsp;
 [![c# badge]](https://dotnet.microsoft.com/apps/aspnet)&nbsp;
 [![js badge]](https://jamstack.org)&ensp;
-[![kubernetes badge]](https://kubernetes.io)&ensp;
+[![kubernetes badge]](https://kubernetes.io)&nbsp;
 [![architecture badge]][microservice article]&ensp;
 [![license badge]](https://www.gnu.org/licenses/agpl-3.0)
 
@@ -18,7 +18,6 @@
 [![gitlab badge]](https://ci.kicksware.com/kicksware/kicksware-platform)&nbsp;
 [![gateway pipeline]](https://ci.kicksware.com/kicksware/gateway/-/commits/master)&nbsp;
 [![tool-stack pipeline]](https://ci.kicksware.com/kicksware/tool-stack/-/commits/master)&nbsp;
-
 
 ## Overview
 
@@ -57,7 +56,7 @@ Generally, modern [**cloud-native**][cloud-native] applications are built as a s
 
 In terms of scalability, Kicksware is relying on Kuberentes [_Horizontal Pod Autoscaler (HPA)_][k8s hpa] feature and [_Cluster Autoscaler_][digitalocean-vna] provided by _DigitalOcean_.
 
-Next diagram visualy reprsents Kicksware's cloud infrastructure components and relation between them:
+The following diagram visualy reprsents Kicksware's cloud infrastructure components and relation between them:
 [![kicksware infrastructure][]][kicksware-cloudcraft]
 
 ## Wrap Up
@@ -74,7 +73,7 @@ Feel free to contribute your code and ideas. Please make sure to read the Contri
 
 Licensed under the [GNU AGPLv3][license file].
 
-[kicksware logo]: https://ci.kicksware.com/kicksware/kicksware-platform/-/raw/master/assets/kicksware-logo.png
+[kicksware logo]: https://ci.kicksware.com/kicksware/kicksware-platform/-/raw/master/assets/repo-logo.png
 [kicksware url]: https://kicksware.com
 
 [api repo]: https://github.com/timoth-y/kicksware-api
