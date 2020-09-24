@@ -27,6 +27,15 @@ It designed to provide opportunity, place and services not only to a passionate 
 
 It’s goal is to support use of modern technology in nowadays fashion industry and help building better, more comfortable, more authentic and more creative ecosystem.
 
+## Table of contents
+
+* [Overview](#overview)
+* [Components](#components)
+* [Architecture](#architecture)
+* [Infrastructure](#infrastructure)
+* [Wrap Up](#wrap-up)
+* [License](#license)
+
 ## Components
 
 As it was designed as a distributed microservice system _**Kicksware**_ consist of 4 main components, each having it's own dadicated project:
