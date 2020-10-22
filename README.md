@@ -2,7 +2,7 @@
 
 <p align="center">
 	<a href="https://kicksware.com">
-		<img src="https://img.shields.io/website?label=Visit%20website&down_message=unavailable&up_color=teal&up_message=kicksware.com%20%7C%20online&url=https%3A%2F%2Fkicksware.com">
+		<img src="https://img.shields.io/website?label=Visit%20website&down_message=unavailable&up_color=teal&up_message=kicksware.com%20%7C%20online&url=https%3A%2F%2Fhealth.kicksware.com/ready">
 	</a>
 </p>
 
@@ -30,6 +30,7 @@ Its goal is to support use of modern technology in today`s fashion industry and 
 ## Table of contents
 
 * [Overview](#overview)
+* [Table of contents](#table-of-contents)
 * [Components](#components)
 * [Architecture](#architecture)
 * [Infrastructure](#infrastructure)
