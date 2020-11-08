@@ -1,7 +1,7 @@
 # [![Kicksware logo][]][Kicksware url]
 
 <p align="center">
-	<a href="https://kicksware.com">
+	<a href="https://www.kicksware.com">
 		<img src="https://img.shields.io/website?label=Visit%20website&down_message=unavailable&up_color=teal&up_message=kicksware.com%20%7C%20online&url=https%3A%2F%2Fhealth.kicksware.com/ready">
 	</a>
 </p>
@@ -84,7 +84,7 @@ Feel free to contribute your code and ideas. Please make sure to read the Contri
 Licensed under the [GNU AGPL-3.0][license file].
 
 [kicksware logo]: https://ci.kicksware.com/kicksware/kicksware-platform/-/raw/master/assets/repo-logo.png
-[kicksware url]: https://kicksware.com
+[kicksware url]: https://www.kicksware.com
 
 [api repo]: https://github.com/timoth-y/kicksware-api
 [web-app repo]: https://github.com/timoth-y/kicksware-web-app
