@@ -83,7 +83,7 @@ Feel free to contribute your code and ideas. Please make sure to read the Contri
 
 Licensed under the [GNU AGPL-3.0][license file].
 
-[kicksware logo]: https://ci.kicksware.com/kicksware/kicksware-platform/-/raw/master/assets/repo-logo.png
+[kicksware logo]: https://raw.githubusercontent.com/timoth-y/kicksware-platform/master/assets/repo-logo.png
 [kicksware url]: https://www.kicksware.com
 
 [api repo]: https://github.com/timoth-y/kicksware-api
